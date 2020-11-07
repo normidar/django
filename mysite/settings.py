@@ -93,7 +93,7 @@ if os.getenv('GAE_APPLICATION', None):
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'HOST': '/cloudsql/abstract-water-282505:asia-east2:test',
+            'HOST': '/cloudsql/abstract-water-282505:asia-east2:test2',
             'USER': 'test2',
             'PASSWORD': '123456',
             'NAME': 'test2',
